@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "948338806aacea7d5cb04a4500f0a00caa5b57aa",
-  "LastTranslatedCommit": "0027c8ea52bee9459f6e424ab4895090748248f6",
+  "LastTranslatedCommit": "77f1fd405a2cc172d3d4427f076d5563bb5b6520",
   "Items": {
     "c8612ece5848fe0e758c076dc6fbd0c2e07ff729": {
       "FileHash": "c8612ece5848fe0e758c076dc6fbd0c2e07ff729",
@@ -5504,9 +5504,17 @@
       "TargetFilePath": null,
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
-      "HandbackDateTime": "0001-01-01T00:00:00",
-      "HandbackException": null,
-      "HandbackFailureTimes": 0,
+      "HandbackDateTime": "2016-08-09T15:04:27.4104173Z",
+      "HandbackException": {
+        "internal_error_code": "handback_validate_file_name_invalide",
+        "internal_error_message": "Handback file name: arc3dfdl.foi is different with handoff file name: c1c68c3f-023c-42f2-9d6e-3af7d125efc3.8b5757560994d461dc0cfd226e764fda8b917b52.de-de.",
+        "internal_error_retriable": false,
+        "exception_message": "Handback file name: arc3dfdl.foi is different with handoff file name: c1c68c3f-023c-42f2-9d6e-3af7d125efc3.8b5757560994d461dc0cfd226e764fda8b917b52.de-de.",
+        "exception_type": "Microsoft.OpenLocalization.Common.ErrorHandling.OpenLocalizationException",
+        "stack_trace": null,
+        "extended_information": null
+      },
+      "HandbackFailureTimes": 1,
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "ArchiveFilePath": null,
       "ArchiveFileCommit": null,
